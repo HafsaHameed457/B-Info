@@ -39,7 +39,13 @@ Log strcutured, tree structured, relational databases, nosql
 5. Caching
 
  - Messaging system. (queue, RabbitMQ)
- - 
+
+6. Web frameworks
+
+7. Message Format (XML, Json)
+
+8. Security (Network sec, Data security)
+
 ## What is a server? 
 
 From node js repo.
