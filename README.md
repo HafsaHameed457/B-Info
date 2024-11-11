@@ -49,3 +49,9 @@ Log strcutured, tree structured, relational databases, nosql
 ## What is a server? 
 
 From node js repo.
+
+## OSI Model
+
+Standardizes communication in computer systems. Internet runs on this, phones runs on this, LAN, router.
+
+Stands for Open systems interconnection model.
