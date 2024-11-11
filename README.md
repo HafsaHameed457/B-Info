@@ -86,7 +86,6 @@ Standardizes communication in computer systems. Internet runs on this, phones ru
 Stands for Open systems interconnection model.
 
 
-## With example
 
 When a mobile device tries to access a webpage from another device on the same network, the process involves several layers of the OSI (Open Systems Interconnection) model. Here’s how it works step-by-step:
 
@@ -111,7 +110,9 @@ In this case: The mobile device uses its MAC address to communicate with the rou
 7. Physical Layer (Layer 1):
 Function: This layer handles the physical transmission of data over the network medium (e.g., cables, radio waves).
 In this case: The data is transmitted as electrical signals (over Ethernet or Wi-Fi) between the mobile device and the router or directly to the web server if it’s connected locally.
-Summary of the Flow:
+
+- Summary of the Flow:
+
 Mobile device (client): Sends a request (e.g., HTTP request) at the Application layer.
 The data is then prepared, encoded, and prepared for session management at the Session layer.
 TCP at the Transport layer breaks the data into segments, which are sent to the Network layer with the correct IP address.
