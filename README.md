@@ -1,14 +1,45 @@
 # BACKEND-THEORY
 
 ## Things to learn as a backend engineer
+1. Communication protocols:
+ - Communication protocols. (TCP, UDP), Why tcp slow?
 
-- Communication protocols. (TCP, UDP), Why tcp slow?
+ - How http work? What is HTTP?
 
-- How http work? What is HTTP?
+ - Web sockets
+
+ - GRPC
+
+ - RFCs
 
 
 
-- Web servers
+
+2.  Web servers
+
+Etags, etags mechanism , caching, threads, 
+
+3. Database engineering
+
+Log strcutured, tree structured, relational databases, nosql
+ - Acid
+ - Atomicity
+ - Durabiloity
+ - Isolation
+
+4. Proxy
+
+ - microservices
+ - Reverse Proxy
+ - Caching layers
+ - Load Balancers
+ - TLS termination
+ - Services mreshes
+
+5. Caching
+
+ - Messaging system. (queue, RabbitMQ)
+ - 
 ## What is a server? 
 
 From node js repo.
