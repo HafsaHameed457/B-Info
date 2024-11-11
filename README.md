@@ -86,3 +86,37 @@ Standardizes communication in computer systems. Internet runs on this, phones ru
 Stands for Open systems interconnection model.
 
 
+## With example
+
+When a mobile device tries to access a webpage from another device on the same network, the process involves several layers of the OSI (Open Systems Interconnection) model. Here’s how it works step-by-step:
+
+1. Application Layer (Layer 7):
+Function: This layer is responsible for the actual communication between applications. It provides network services to end-user applications.
+In this case: The mobile device (client) uses a web browser (such as Chrome or Safari), which runs at the Application layer. The user enters a URL, and the browser sends a HTTP request to the other device (web server) over the network.
+2. Presentation Layer (Layer 6):
+Function: This layer is responsible for translating data formats, encryption, and compression.
+In this case: The web browser on the mobile device might encode or compress the data for transmission, and the web server will decode and decompress it. However, this is often transparent to the user in most cases when browsing.
+3. Session Layer (Layer 5):
+Function: This layer manages sessions between devices, ensuring continuous exchange of data.
+In this case: The mobile device establishes a session with the web server. It keeps track of the communication between the client and the server, managing cookies and maintaining the state of the connection, especially in protocols like HTTP or HTTPS.
+4. Transport Layer (Layer 4):
+Function: This layer ensures reliable data transfer by using protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol). It handles error correction, flow control, and data segmentation.
+In this case: The mobile device sends the HTTP request using TCP. TCP breaks the message into smaller packets, ensures they arrive in order, and handles retransmission if necessary.
+5. Network Layer (Layer 3):
+Function: This layer is responsible for routing data across networks and assigning logical IP addresses.
+In this case: The mobile device uses its IP address to locate the web server within the same local network. The request is sent using the IP address of the web server device, and routers (if necessary) route the data to the correct location within the network.
+6. Data Link Layer (Layer 2):
+Function: This layer deals with physical addressing and ensures data is transferred correctly within the same local network. It is responsible for defining how data is packaged and addressed at the hardware level.
+In this case: The mobile device uses its MAC address to communicate with the router or directly with the web server (depending on network setup). It encapsulates the IP packet into a frame, which is sent over the local network via Ethernet (for wired) or Wi-Fi (for wireless).
+7. Physical Layer (Layer 1):
+Function: This layer handles the physical transmission of data over the network medium (e.g., cables, radio waves).
+In this case: The data is transmitted as electrical signals (over Ethernet or Wi-Fi) between the mobile device and the router or directly to the web server if it’s connected locally.
+Summary of the Flow:
+Mobile device (client): Sends a request (e.g., HTTP request) at the Application layer.
+The data is then prepared, encoded, and prepared for session management at the Session layer.
+TCP at the Transport layer breaks the data into segments, which are sent to the Network layer with the correct IP address.
+The Data Link layer adds a MAC address to the packets for routing within the local network (if not directly communicating via a switch).
+The Physical layer transmits the data as signals through the network medium (Wi-Fi or Ethernet).
+Once the web server (the other device on the same network) receives the HTTP request, it processes the request and sends the response back through the same layers in reverse order.
+
+In essence, the IP address ensures the request is routed correctly within the local network, and the MAC address allows the devices to communicate on the local network segment.
