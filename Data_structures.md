@@ -68,3 +68,6 @@ Binary Search Tree is a type of binary tree in which each node's left subtree co
 11. Heap
 Heap is a complete binary tree data structure that satisfies the heap property. Heaps are usually used to implement priority queues, where the smallest or largest element is always at the root of the tree.
 
+12. Graph
+Graph is a non-linear data structure consisting of a finite set of vertices(or nodes) and a set of edges(or links)that connect a pair of nodes. Graphs are widely used to represent relationships between entities.
+
