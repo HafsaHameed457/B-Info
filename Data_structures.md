@@ -30,3 +30,10 @@ It has mainly 2 types:
 
 Non-Linear Data Structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. 
 Examples: Trees and Graphs.
+
+
+## Types of ds
+
+
+1. Array:
+Array is a linear data structure that stores a collection of elements of the same data type. Elements are allocated contiguous memory, allowing for constant-time access. Each element has a unique index number.
