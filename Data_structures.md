@@ -15,3 +15,10 @@ It has mailny 2 types:
 Linear Data Structure: Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
 Example: Array, Stack, Queue, Linked List, etc.
 
+It has mainly 2 types:
+
+1. Static linear ds.
+2. Dynamic linear ds
+
+
+
