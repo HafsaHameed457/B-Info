@@ -46,3 +46,6 @@ String is a sequence of characters, typically used to represent text. It is cons
 
 4. Stack
 Stack is a linear data structure that follows the Last In, First Out (LIFO) principle. Stacks play an important role in managing function calls, memory, and are widely used in algorithms, web development, and systems like compilers and browsers.
+
+5. Queue
+Queue is a linear data structure that follows the First In, First Out (FIFO) principle. Queues play an important role in managing tasks or data in order, scheduling and message handling systems.
