@@ -20,6 +20,9 @@ It has mainly 2 types:
 1. Static linear ds.
 2. Dynamic linear ds
 
- Static Data Structure: Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. 
+    Static Data Structure: Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. 
+
+    Dynamic Data Structure: In dynamic data structure, the size is not fixed. It can be randomly updated during the runtime which may be considered efficient concerning the memory (space) complexity of the code. 
+    Example: Queue, Stack, etc.
 
 
