@@ -26,3 +26,7 @@ It has mainly 2 types:
     Example: Queue, Stack, etc.
 
 
+#### Non- linear data structure
+
+Non-Linear Data Structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. 
+Examples: Trees and Graphs.
