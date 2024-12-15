@@ -20,5 +20,6 @@ It has mainly 2 types:
 1. Static linear ds.
 2. Dynamic linear ds
 
+ Static Data Structure: Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. 
 
 
