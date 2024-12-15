@@ -49,3 +49,8 @@ Stack is a linear data structure that follows the Last In, First Out (LIFO) prin
 
 5. Queue
 Queue is a linear data structure that follows the First In, First Out (FIFO) principle. Queues play an important role in managing tasks or data in order, scheduling and message handling systems.
+
+6. Linked List
+Linked list is a linear data structure that stores data in nodes, which are connected by pointers. Unlike arrays, nodes of linked lists are not stored in contiguous memory locations and can only be accessed sequentially, starting from the head of list.
+
+
