@@ -40,3 +40,9 @@ Array is a linear data structure that stores a collection of elements of the sam
 
 2. Matrix/Grid
 Matrix is a two-dimensional array of elements, arranged in rows and columns. It is represented as a rectangular grid, with each element at the intersection of a row and column.
+
+3. String
+String is a sequence of characters, typically used to represent text. It is considered a data type that allows for the manipulation and processing of textual data in computer programs.
+
+4. Stack
+Stack is a linear data structure that follows the Last In, First Out (LIFO) principle. Stacks play an important role in managing function calls, memory, and are widely used in algorithms, web development, and systems like compilers and browsers.
