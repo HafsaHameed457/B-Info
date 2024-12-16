@@ -89,6 +89,11 @@ Linear time compelxity for loops (Fair complexoty not good, not bad)
 
 Constant time complexity flat time, very good time complexity
 
+## O (n!)
+
+We are adding nested loops for each variable we have. Very worst
+
+
 
 
 
