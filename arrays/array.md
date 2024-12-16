@@ -13,3 +13,10 @@ An array is a collection of data items stored at contiguous memory locations. Th
     - It is not useful in places where we have operations like insert in the middle, delete from middle and search in a unsorted data.
 
     - It is a fundamental and linear data structure using which we build other data structures like Stack Queue, Deque, Graph, Hash Table, etc.
+
+
+## Methods and their time complexities:
+
+Insert / Remove from the end - O(1)
+
+Insert / Remove from the start - O(n)
