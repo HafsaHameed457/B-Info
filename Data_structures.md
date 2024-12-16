@@ -81,6 +81,12 @@ As the input elements increases how many more oprations do we have to do?
 
 How scalable the program is? It means that as we grow bigger and bigger how slow will the program run?
 
+### O(N)
+
+Linear time compelxity for loops (Fair complexoty not good, not bad)
+
+
+
 
 
 
