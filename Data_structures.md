@@ -93,6 +93,12 @@ Constant time complexity flat time, very good time complexity
 
 We are adding nested loops for each variable we have. Very worst
 
+### O(log n)
+
+Logarithmic time complexity means that the running time of an algorithm is proportional to the logarithm of the input size.
+
+Logarithmic time complexity is when the runtime grows logarithmically with the input size. As the input size increases, the runtime of the algorithm increases, but at a much slower rate compared to linear or quadratic time complexities. In a logarithmic time algorithm, the number of operations scales logarithmically with the input size.
+
 
 
 
