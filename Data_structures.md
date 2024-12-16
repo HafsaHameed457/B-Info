@@ -117,6 +117,8 @@ Nested loops
 
 ### O(2^n) exponential
 
+You get exponential time complexity when the growth rate doubles with each addition to the input (n), often iterating through all subsets of the input elements. Any time an input unit increases by 1, the number of operations executed is doubled.
+
 
 
 
