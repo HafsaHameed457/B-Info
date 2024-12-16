@@ -121,6 +121,24 @@ You get exponential time complexity when the growth rate doubles with each addit
 recursive
 
 
+## Types and example algos
+
+# Time Complexity Table
+
+The following table summarizes the time complexities of various algorithms:
+
+| **Time Complexity** | **Big-O Notation** | **Examples**                                        |
+|---------------------|---------------------|-----------------------------------------------------|
+| **Logarithmic**      | O(log n)            | Binary Search                                       |
+| **Linear**           | O(n)                | Linear Search                                       |
+| **Superlinear**      | O(n log n)          | Heap Sort, Merge Sort                              |
+| **Polynomial**       | O(n^c)              | Strassen’s Matrix Multiplication, Bubble Sort, Selection Sort, Insertion Sort, Bucket Sort |
+| **Exponential**      | O(c^n)              | Tower of Hanoi                                     |
+| **Factorial**        | O(n!)               | Determinant Expansion by Minors, Brute Force Search for Traveling Salesman Problem |
+
+
+
+
 
 
 
