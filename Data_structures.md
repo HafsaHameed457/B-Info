@@ -85,6 +85,10 @@ How scalable the program is? It means that as we grow bigger and bigger how slow
 
 Linear time compelxity for loops (Fair complexoty not good, not bad)
 
+### O(1)
+
+Constant time complexity flat time, very good time complexity
+
 
 
 
