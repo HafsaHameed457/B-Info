@@ -29,3 +29,5 @@ Push Pop - o(1)
 
 Shift, Unshift, slice, splice, concat - O(N)
 
+foreach map find reduce filter are also linear
+
