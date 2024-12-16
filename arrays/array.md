@@ -19,4 +19,13 @@ An array is a collection of data items stored at contiguous memory locations. Th
 
 Insert / Remove from the end - O(1)
 
-Insert / Remove from the start - O(n)
+Insert / Remove from the start - O(n) (Because index has to be reset for every remaining array)
+
+Access- O(1)
+
+Search- O(n)
+
+Push Pop - o(1)
+
+Shift, Unshift, slice, splice, concat - O(N)
+
