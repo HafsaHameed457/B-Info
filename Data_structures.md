@@ -99,9 +99,11 @@ Logarithmic time complexity means that the running time of an algorithm is propo
 
 Logarithmic time complexity is when the runtime grows logarithmically with the input size. As the input size increases, the runtime of the algorithm increases, but at a much slower rate compared to linear or quadratic time complexities. In a logarithmic time algorithm, the number of operations scales logarithmically with the input size.
 
-### O(n2)
+### O(n2) quadratic
 
 Nested loops
+
+### O(2^n) exponential
 
 
 
