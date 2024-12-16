@@ -73,5 +73,14 @@ Graph is a non-linear data structure consisting of a finite set of vertices(or n
 
 
 ## Big O notation
+Language we use tot tell that how long will it take a function to run.
+
+Used to measure algorithm efficiency.
+
+As the input elements increases how many more oprations do we have to do?
+
+How scalable the program is? It means that as we grow bigger and bigger how slow will the program run?
+
+
 
 
