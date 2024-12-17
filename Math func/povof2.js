@@ -13,4 +13,4 @@ function povof2(n) {
   }
   
   console.log(povof2(4));
-// Big 0 = O(n)  
+// Big 0 = O(log n)  
