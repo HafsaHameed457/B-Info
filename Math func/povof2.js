@@ -14,3 +14,13 @@ function povof2(n) {
   
   console.log(povof2(4));
 // Big 0 = O(log n)  
+
+
+function bitWisePower(n) {
+    if (n < 1) {
+      return false;
+    }
+    return (n & (n - 1)) === 0;
+  }
+
+  //Big O = O(1)
