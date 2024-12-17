@@ -8,4 +8,4 @@ function search(n, number) {
   }
   
   console.log(search([1, 2, 3, 4, 20], 20));
-  
+// Big O =O(n)
