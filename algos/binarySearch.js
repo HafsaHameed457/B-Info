@@ -22,3 +22,6 @@ const binarySearch = (arr, target) => {
   console.log(binarySearch([1, 2, 3, 4, 5], 5));
   
   //Big O = O(log n)
+
+
+  const recursiveSearch
