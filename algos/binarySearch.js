@@ -24,4 +24,25 @@ const binarySearch = (arr, target) => {
   //Big O = O(log n)
 
 
-  const recursiveSearch
+  const recursiveSearch = (arr, target, startIndex, endIndex, midIndex) => {
+    if (arr.length === 0) return -1;
+  
+    if (startIndex <= endIndex) {
+      if (arr[midIndex] === target) {
+        return midIndex;
+      } else if (arr[midIndex] > target) {
+        endIndex = midIndex - 1;
+      } else {
+        startIndex = midIndex + 1;
+      }
+      recursiveSearch(
+        arr,
+        target,
+        startIndex,
+        endIndex,
+        Math.floor((startIndex + endIndex) / 2)
+      );
+    } else {
+      return -1;
+    }
+  };
