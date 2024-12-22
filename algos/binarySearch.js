@@ -11,9 +11,9 @@ const binarySearch = (arr, target) => {
       if (arr[midIndex] === target) {
         return midIndex;
       } else if (arr[midIndex] > target) {
-        endIndex = midIndex;
+        endIndex = midIndex-1
       } else {
-        startIndex = midIndex;
+        startIndex = midIndex+1;
       }
     }
     return -1;
