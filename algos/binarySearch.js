@@ -35,7 +35,7 @@ const binarySearch = (arr, target) => {
       } else {
         startIndex = midIndex + 1;
       }
-      recursiveSearch(
+      return recursiveSearch(
         arr,
         target,
         startIndex,
@@ -46,5 +46,5 @@ const binarySearch = (arr, target) => {
       return -1;
     }
   };
-
-console.log(recursiveSearch([1, 2, 3, 4, 5], 5, 0, 4, Math.floor((0 + 4) / 2)));
+  
+  console.log(recursiveSearch([1, 2, 3, 4, 5], 5, 0, 4, Math.floor((0 + 4) / 2)));
