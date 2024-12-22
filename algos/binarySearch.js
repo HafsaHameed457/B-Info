@@ -46,3 +46,5 @@ const binarySearch = (arr, target) => {
       return -1;
     }
   };
+
+console.log(recursiveSearch([1, 2, 3, 4, 5], 5, 0, 4, Math.floor((0 + 4) / 2)));
