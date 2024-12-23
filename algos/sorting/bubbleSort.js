@@ -16,4 +16,4 @@ const bubbleSort = (arr) => {
   
   console.log(bubbleSort([3, 2, 1, 4, 5]));
 
-  //Ascending order
+  //Ascending order BIG 0 =0(n^2)
