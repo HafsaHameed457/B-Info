@@ -1,3 +1,6 @@
+//take adjacent elements compare them and swap
+// after completion of each iteration check if the current iteration includes any swaps 
+// if yes repeat the above process
 const bubbleSort = (arr) => {
     let sortAgain = true;
     while (sortAgain) {
