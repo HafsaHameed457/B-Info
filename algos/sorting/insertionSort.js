@@ -1,3 +1,6 @@
+//by default first element is always sorted
+//suppose rest of the array is unsorted 
+//take each element from one by one fron unsorted array and insert it in sorted array at the right place
 const insertionSort = (arr) => {
     let sortedIndex = 0;
     let newArray = [arr[0]];
