@@ -1,3 +1,6 @@
+// Take a pivot element compare all elemts in array and divide them into left(lesser elemnts) and right(greater elements)
+//do recursiion to sort
+
 const quickSort = (arr) => {
     let leftArr = [],
       rightArr = [];
