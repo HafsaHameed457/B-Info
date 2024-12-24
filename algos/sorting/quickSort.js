@@ -21,4 +21,9 @@ const quickSort = (arr) => {
   };
   
   console.log(quickSort([2, 3, 4, 5, 1, 7, 0]));
+    //Worst case complexity is= O(N^2) comparing every ELEMT TO EVERY OTHER LOOP FOR EACH ELEMENT
+
+    // avg case is = bIG o(nlog n)
+
+
   
