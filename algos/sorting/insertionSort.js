@@ -28,4 +28,6 @@ const insertionSort = (arr) => {
   };
   
   console.log(insertionSort([2, 3, 4, 5, 1, 7, 0]));
+
+// Big O =O(N^2)
   
