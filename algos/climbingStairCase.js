@@ -1,0 +1,1 @@
+//For n steps in stairs give number of different ways to reach to the top you can take either 1 or 2 steps.
