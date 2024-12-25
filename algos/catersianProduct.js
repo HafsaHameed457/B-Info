@@ -22,3 +22,5 @@ const cartesianProduct=(arr1,arr2)=>{
 return product;
 }
 console.log(cartesianProduct([1,2],[3,4]))
+
+// Big O = O(n*m)
